@@ -13,6 +13,11 @@
                 <a class="navbar-item" href="#">
                     <img src="img/logo.png">
                 </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
             </div>
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
@@ -46,9 +51,159 @@
                 </div>
             </div>
         </nav>
-        <!--Body section begins -->
-        <div class="section">
-            <h4>I'm the body</h4>
-        </div>
+        <!--Body section begins-->
+        <!--Welcome banner-->
+        <section class="hero is-primary">
+            <div class="hero-body">
+                <p class="title">Welcome!</p>
+                <p class="subtitle">welcome message here</p>
+            </div>
+        </section>
+        <!--editor's pick-->
+        <section class="section">
+            <div class="box is-centered">
+                <div class="columns">
+                    <div class="column is-one-fifth">
+                        <figure class="image is-square">
+                            <img src="img/placeholder-post-500x500.png" height="250" width="250">
+                        </figure>
+                        
+                    </div>
+                    <div class="column">
+                        <p>
+                            <span class="icon-text mb-1">
+                                <span class="icon">
+                                    <img src="img/bookmark.svg">
+                                </span>
+                                <span>
+                                    <strong>EDITOR'S PICK</strong>
+                                </span>
+                            </span>
+                        </p>
+                        <p class="mb-1">
+                            <strong>Hello, I'm the new post!</strong>
+                            <br>
+                            <small>@git-abdullah | Friday, 17 February 2023</small>
+                        </p>
+                        <p> Curabitur non lacinia lacus. Sed sed ultricies elit. Pellentesque id eleifend dui. Cras aliquam, metus bibendum vestibulum dapibus, nisl metus aliquam tortor, nec tristique nunc diam a justo. Vivamus eu dolor id leo imperdiet interdum. Sed turpis velit, consequat vel vestibulum at, efficitur finibus dolor. Suspendisse eros sem, tincidunt eget ullamcorper varius, pharetra vitae arcu. Sed nec tellus pellentesque, vestibulum magna non, semper velit. In hac habitasse platea dictumst. Aenean id mattis mi, ornare elementum orci. Aenean eros arcu, elementum eget tortor nec, molestie consectetur diam. In elementum porttitor euismod. Etiam vestibulum neque et facilisis facilisis. </p>
+                        <!--Tags-->
+                        <br>
+                        <span class="tag is-info is is-normal is-light">Python</span>
+                        <span class="tag is-info is is-normal is-light">Sample Tag</span>
+                        <span class="tag is-info is is-normal is-light">Text</span>
+                        <span class="tag is-info is is-normal is-light">Hello</span>
+                        <!--Read More btn-->
+                        <br>
+                        <input type="button" value="Read more" class="button is-primary mt-2">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Posts-->
+        <section class="section">
+            <div class="columns">
+                <!--Popular/trending posts, two colums-->
+                <div class="column is-three-fifths">
+                    <div class="content">
+                        <span class="icon-text mb-2">
+                            <span class="icon">
+                                <img src="img/trending-up.svg">
+                            </span>
+                            <span>
+                                <strong> TRENDING</strong>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="columns">
+                        <div class="column is-half">
+                            <!--post one-->
+                            <div class="card mb-5 is-normal">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <p class="title is-4">Hi there, read me too!</p>
+                                        <p class="subtitle is-7">@git-abdullah | Friday, 17 February 2023</p>
+                                        <p> Curabitur non lacinia lacus. Sed sed ultricies elit. Pellentesque id eleifend dui. Cras aliquam, metus bibendum vestibulum dapibus, nisl metus aliquam tortor, nec tristique nunc diam a justo. Vivamus eu dolor id leo imperdiet interdum. </p>
+                                        <span class="tag is-info is is-normal is-light">Python</span>
+                                        <span class="tag is-info is is-normal is-light">Sample Tag</span>
+                                        <span class="tag is-info is is-normal is-light">Text</span>
+                                        <span class="tag is-info is is-normal is-light">Hello</span>
+                                    </div>
+                                    <!--Read btn-->
+                                    <input type="button" value="Read" class="button is-small is-primary mt-2">
+                                </div>
+                            </div>
+                            <!--post two-->
+                            <div class="card mb-5 is-normal">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <p class="title is-4">Hi there, I don't wan to see you again!</p>
+                                        <p class="subtitle is-7">@git-abdullah | Friday, 17 February 2023</p>
+                                        <p> Curabitur non lacinia lacus. Sed sed ultricies elit. Pellentesque id eleifend dui. Cras aliquam, metus bibendum vestibulum dapibus, nisl metus aliquam tortor, nec tristique nunc diam a justo. Vivamus eu dolor id leo imperdiet interdum. Sed turpis velit, consequat vel vestibulum at, efficitur finibus dolor. Suspendisse eros sem, tincidunt eget ullamcorper varius, pharetra vitae arcu. Sed nec tellus pellentesque, vestibulum magna non </p>
+                                        <span class="tag is-info is is-normal is-light">Python</span>
+                                        <span class="tag is-info is is-normal is-light">Sample Tag</span>
+                                        <span class="tag is-info is is-normal is-light">Text</span>
+                                        <span class="tag is-info is is-normal is-light">Hello</span>
+                                    </div>
+                                    <!--Read btn-->
+                                    <input type="button" value="Read" class="button is-small is-primary mt-2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-half">
+                            <!--post three-->
+                            <div class="card mb-5 is-normal">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <p class="title is-4">Hi there, run away!</p>
+                                        <p class="subtitle is-7">@git-abdullah | Friday, 17 February 2023</p>
+                                        <p> Curabitur non lacinia lacus. Sed sed ultricies elit. Pellentesque id eleifend dui. Cras aliquam, metus bibendum vestibulum dapibus, nisl metus aliquam tortor, nec tristique nunc diam a justo. Vivamus eu dolor id leo imperdiet interdum. Sed turpis velit, consequat vel vestibulum at, efficitur finibus dolor. Suspendisse eros sem, tincidunt eget </p>
+                                        <span class="tag is-info is is-normal is-light">Python</span>
+                                        <span class="tag is-info is is-normal is-light">Sample Tag</span>
+                                        <span class="tag is-info is is-normal is-light">Text</span>
+                                        <span class="tag is-info is is-normal is-light">Hello</span>
+                                    </div>
+                                    <!--Read btn-->
+                                    <input type="button" value="Read" class="button is-small is-primary mt-2">
+                                </div>
+                            </div>
+                            <!--post four-->
+                            <div class="card mb-5 is-normal">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <p class="title is-4">Hi there, don't read me too!</p>
+                                        <p class="subtitle is-7">@git-abdullah | Friday, 17 February 2023</p>
+                                        <p> Curabitur non lacinia lacus. Sed sed ultricies elit. Pellentesque id eleifend dui. Cras aliquam, metus bibendum vestibulum dapibus </p>
+                                        <span class="tag is-info is is-normal is-light">Python</span>
+                                        <span class="tag is-info is is-normal is-light">Sample Tag</span>
+                                        <span class="tag is-info is is-normal is-light">Text</span>
+                                        <span class="tag is-info is is-normal is-light">Hello</span>
+                                    </div>
+                                    <!--Read btn-->
+                                    <input type="button" value="Read" class="button is-small is-primary mt-2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <span class="icon-text mb-2">
+                            <span class="icon">
+                                <img src="img/pricetags.svg">
+                            </span>
+                            <span>
+                                <strong> TAGS</strong>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Footer Begins-->
+        <footer class="footer">
+            <div class="has-text-centered">
+                <strong>Django Blog Template</strong> made with <a href="https://bulma.io/">Bulma</a>. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </div>
+        </footer>
     </body>
 </html>
